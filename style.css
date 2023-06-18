@@ -1,0 +1,16 @@
+#modal::backdrop {
+  background-color: rgb(0 0 0 / 0.3);
+}
+#modal {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1em rgb(0 0 0 / 0.3);
+  width: 30%;
+}
+#botao-abrir:hover,
+#botao-fechar:hover {
+  cursor: pointer;
+}
+#container {
+  margin: 0 30vh;
+}
